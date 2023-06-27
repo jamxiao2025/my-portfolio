@@ -1,6 +1,6 @@
 .main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
@@ -8,16 +8,14 @@
 }
 
 .description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
+
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
 }
-
+/*
 .description a {
   display: flex;
   justify-content: center;
@@ -33,7 +31,7 @@
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
 }
-
+*/
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
@@ -159,9 +157,6 @@
     font-size: 0.8rem;
   }
 
-  .description a {
-    padding: 1rem;
-  }
 
   .description p,
   .description div {
@@ -226,4 +221,7 @@
   to {
     transform: rotate(0deg);
   }
+}
+.vertical {
+  grid-template-columns: 1fr;
 }

@@ -5,90 +5,49 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+       <text style={{fontSize: '30px'}}>James Xiao </text>
+       <br></br>
+       <br></br>
+       site status: <text style={{color:'orange'}}>under construction</text>
+       <br></br><br></br><br></br>
+       <br></br>
+       <br></br>
+       Currently experimenting with LLM frameworks for meaningful data indexing and retrieval. Interested in the role vector embeddings play within these processes.
+       <br></br>
+       <br></br><br></br>
+       <br></br><br></br>
+       Past projects include: 
+       <br></br>
+       <br></br>
+        1. BU Spark! Data Portal - [
+          <a 
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: 'blue' }}
+          href="https://github.com/BU-Spark/infra-public-data-portal"
           >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
+            making data accessible 
+          </a>]
+        <br></br>
+        2. Stake the Stigma - [
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: 'blue' }}
+        href="https://github.com/elaineleiyoung/StakeTheStigma"
         >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+          destigmatizing women's health issues
+        </a>]
+        <br></br>
+        3. benma.world - [
+        <a 
+         target="_blank"
+         rel="noopener noreferrer"
+         style={{ color: 'blue' }}
+        href="https://benmaimages.herokuapp.com"
         >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+          digitizing artistic vision 
+        </a>]
       </div>
     </main>
   )
